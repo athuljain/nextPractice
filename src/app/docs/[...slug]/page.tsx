@@ -1,5 +1,6 @@
 export default function Docs({ params }: { params: { slug?: string[] } }) {
   const slug = params.slug || [];
+  console.log(slug)
 
   if (slug.length === 2) {
     return (
